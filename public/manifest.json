@@ -1,6 +1,6 @@
 {
-    "name": "Test Chrome React",
-    "description": "Testing React",
+    "name": "Streamer Notifier",
+    "description": "Notifies when a desired streamer is live",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
