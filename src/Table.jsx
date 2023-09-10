@@ -2,7 +2,7 @@ import React from "react";
 
 const Table = ({ streamers }) => {
   if (!streamers || streamers.length === 0) {
-    return <p>No streamers found.</p>; // Render a message when streamers array is empty or undefined
+    return;
   }
 
   return (

@@ -14,11 +14,7 @@ function Popup() {
       <h1>Streamer Notifier</h1>
       <SearchBar setStreamers={setStreamers} />
       <SearchResultsList streamers={streamers}/>
-      {streamers && streamers.length > 0 ? (
-        <Table streamers={streamers} />
-      ) : (
-        <p>No streamers found.</p>
-      )}
+      <Table streamers={streamers} />
     </div>
   );
 }
